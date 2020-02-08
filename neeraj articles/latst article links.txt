@@ -1,0 +1,11 @@
+     Abstract
+      
+      DES (Data Encryption Standard) is a cryptographic standard. However, the applications of it are limited because of the small key space. Based on irrational numbers, an improved scheme that enhances the randomness of sub-Key is proposed, in which the permutation is controlled by irrational number which is considered as false chaos. Moreover, the permutation controlled by data can be performed at high speed in generic CPU. It is shown that this scheme can expand the key space without costing any more time to run.
+      
+ 	The plaintext is encrypted to cipher text by the key with a length of 64 bits, in which 56 bits are used for encryption, and the others are employed for parity test. Encryption and decryption use the same algorithm as well as the key. It is no longer a question to attack the 56-bit key with the development of computer technology. The attacker can decipher DES within 20 hours through exhaustive key search.
+      An improved scheme is proposed here to control the transposition by irrational number in order to overcome the defects mentioned above. Irrational numbers, which are similar to data sequences generated form chaotic system, are infinite and non-cycle. However the former is not sensitive to the initial condition. Therefore, using irrational numbers to encrypt will provide higher security without strict chaos synchronization.
+      The improved scheme prevents the key from being directly involved in the production of sub-keys, and increases the transposition controlled by irrational number on the basis of DES, which has higher security, great non-crack ability and wide applicability.
+      To further improve non-crack ability we integrate AES(Advanced Encryption Standard) with  Improved DES with Irrational Numbers. We will integrate AES in between all rounds of DES encryption. The result of EX-OR of fiestal function and left 32-bit part of 64-bit data will be encrypted with  AES and left 32-bit of original 64-bit data will also be encrypted with AES. These two AES encrypted 32-bit blocks will be used in further rounds.
+      So we have first improved des by adding the irrational number concept as follows.
+
+Next we have integrated the Aes algorithm into this Des structure to further improve its security.
